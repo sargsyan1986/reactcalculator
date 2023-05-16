@@ -49,7 +49,7 @@ pipeline:
                   identifier: BuildandPushanimagetoDockerRegistry
                   spec:
                     connectorRef: harnesscommunitydocker
-                    repo: sargsyan/test-react
+                    repo: <+pipeline.variables.DOCKERHUB_USERNAME>/test-react
                     tags:
                       - <+pipeline.sequenceId>
           platform:
