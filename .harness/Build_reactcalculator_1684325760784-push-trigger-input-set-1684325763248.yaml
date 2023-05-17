@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_reactcalculator_1684325760784-push-trigger-input-set
+  identifier: Build_reactcalculator_1684325760784pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: ProjectJoppa
+  pipeline:
+    identifier: Build_reactcalculator_1684325760784
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
