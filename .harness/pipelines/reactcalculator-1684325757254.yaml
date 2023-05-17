@@ -25,6 +25,9 @@ pipeline:
                     image: alpine
                     shell: Sh
                     command: echo "Welcome to Harness CI"
+                  when:
+                    stageStatus: All
+                  failureStrategies: []
   properties:
     ci:
       codebase:
