@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_reactcalculator_1684324868737-pr-trigger-input-set
+  identifier: Build_reactcalculator_1684324868737prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: Jopa
+  pipeline:
+    identifier: Build_reactcalculator_1684324868737
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
